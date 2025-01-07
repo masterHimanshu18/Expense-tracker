@@ -1,6 +1,6 @@
 import express from "express";
 import { verifyToken } from "../middlewares/authMiddleware"; // Middleware to verify user authentication
-import Expense from "../models/Expense"; // Expense model
+import Expense from "../models/Expense.js"; // Expense model
 
 // Extend Express Request to include `user` property
 interface CustomRequest extends express.Request {

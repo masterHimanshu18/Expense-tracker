@@ -8,7 +8,7 @@
     "dev:frontend": "next dev --turbopack",
     "dev:backend": "nodemon --watch backend --exec \"node --loader ts-node/esm\" backend/server.ts",
     "build": "next build",
-    "start": "next start",
+    "start": "node --loader ts-node/esm backend/server.ts",
     "lint": "next lint"
   },
   "dependencies": {

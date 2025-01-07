@@ -1,5 +1,5 @@
 // backend/server.ts
-import app from "./app";
+import app from "./app.js";
 
 const PORT = 5000;
 
